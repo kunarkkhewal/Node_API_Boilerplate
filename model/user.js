@@ -3,9 +3,10 @@ const mongoose = require('../utils/db_connection');
 const Schema = mongoose.Schema;
 const userSchema = new Schema({
     username: { type: String, required: true },
-    emailId: { type: String, required: true, unique: true },
+    emailId: { type: String, required: true },
     password: { type: String, required: true },
-    about: { type: String }
+    about: { type: String },
+    relationshipStatus: {type: String}
 });
 userSchema.index({ emailId: 1 });
 

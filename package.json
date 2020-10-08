@@ -1,0 +1,25 @@
+{
+  "name": "nodeapp_indusos",
+  "version": "1.0.0",
+  "description": "Basic Node app Implementing GET, POST, PUT methods, authentication and exception handling",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kunarkkhewal/NodeApp_IndusOS.git"
+  },
+  "author": "Kunark Khewal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kunarkkhewal/NodeApp_IndusOS/issues"
+  },
+  "homepage": "https://github.com/kunarkkhewal/NodeApp_IndusOS#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}

@@ -17,7 +17,8 @@
   },
   "homepage": "https://github.com/kunarkkhewal/NodeApp_IndusOS#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "mongoose": "^5.10.8"
   },
   "devDependencies": {
     "nodemon": "^2.0.4"
